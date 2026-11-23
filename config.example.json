@@ -1,0 +1,12 @@
+{
+  "_comment": "复制为本目录的 config.json。feishu_webhook 填飞书自定义机器人地址；机器人若开启签名校验，把密钥填到 feishu_secret。nvd_api_key 可留空。notify_when_empty 为 false 时，没有新增漏洞不发飞书。",
+  "feishu_webhook": "",
+  "feishu_secret": "",
+  "nvd_api_key": "",
+  "interval": "2h",
+  "state_file": "state.json",
+  "db_file": "cve.db",
+  "web_addr": ":12313",
+  "public_base_url": "http://127.0.0.1:12313",
+  "notify_when_empty": false
+}
